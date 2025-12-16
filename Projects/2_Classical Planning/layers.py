@@ -2,7 +2,8 @@
 from copy import deepcopy
 from functools import lru_cache
 from itertools import combinations
-from collections import defaultdict, MutableSet
+from collections.abc import MutableSet
+from collections import defaultdict
 
 from aimacode.planning import Action
 from aimacode.utils import expr, Expr
